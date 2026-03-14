@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a8cff"/>
+      <stop offset="100%" stop-color="#0056cc"/>
+    </linearGradient>
+    <clipPath id="clip">
+      <path d="M20 15 L55 80 L65 80 L100 15 L80 15 L65 55 L55 55 L40 15 Z"/>
+    </clipPath>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="url(#grad)"/>
+  <g clip-path="url(#clip)">
+    <rect width="120" height="120" fill="white" opacity="0.9"/>
+  </g>
+</svg>
